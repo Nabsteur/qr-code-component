@@ -1,0 +1,50 @@
+/* HTML */
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color: hsl(212, 45%, 89%);
+}
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+   color: hsl(218, 44%, 22%);
+}
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+/* Container */
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    border-radius: 20px;
+    margin: 10% auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.qr-code-img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+.qr-bottom-text {
+    padding: 14px 9%;
+    margin-bottom: 12px;
+}
+/* Attribution */
+.attribution {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
